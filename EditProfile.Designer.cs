@@ -1,0 +1,166 @@
+﻿namespace FinalLinq
+{
+    partial class EditProfile
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditProfile));
+            pictureBox1 = new PictureBox();
+            NAME = new Label();
+            txt_name = new TextBox();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            txt_email = new TextBox();
+            txt_phone = new TextBox();
+            txt_password = new TextBox();
+            button1 = new Button();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.images__5_;
+            resources.ApplyResources(pictureBox1, "pictureBox1");
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.TabStop = false;
+            // 
+            // NAME
+            // 
+            resources.ApplyResources(NAME, "NAME");
+            NAME.ForeColor = Color.MediumSlateBlue;
+            NAME.Name = "NAME";
+            // 
+            // txt_name
+            // 
+            resources.ApplyResources(txt_name, "txt_name");
+            txt_name.Name = "txt_name";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(label2, "label2");
+            label2.ForeColor = Color.MediumSlateBlue;
+            label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(label3, "label3");
+            label3.ForeColor = Color.MediumSlateBlue;
+            label3.Name = "label3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.ForeColor = Color.MediumSlateBlue;
+            label4.Name = "label4";
+            // 
+            // txt_email
+            // 
+            resources.ApplyResources(txt_email, "txt_email");
+            txt_email.Name = "txt_email";
+            // 
+            // txt_phone
+            // 
+            resources.ApplyResources(txt_phone, "txt_phone");
+            txt_phone.Name = "txt_phone";
+            // 
+            // txt_password
+            // 
+            resources.ApplyResources(txt_password, "txt_password");
+            txt_password.Name = "txt_password";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.MediumSlateBlue;
+            resources.ApplyResources(button1, "button1");
+            button1.ForeColor = Color.White;
+            button1.Name = "button1";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.close;
+            resources.ApplyResources(pictureBox2, "pictureBox2");
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.download__6_;
+            resources.ApplyResources(pictureBox3, "pictureBox3");
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
+            // EditProfile
+            // 
+            resources.ApplyResources(this, "$this");
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(button1);
+            Controls.Add(txt_password);
+            Controls.Add(txt_phone);
+            Controls.Add(txt_email);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(txt_name);
+            Controls.Add(NAME);
+            Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "EditProfile";
+            Load += EditProfile_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private PictureBox pictureBox1;
+        private Label NAME;
+        private TextBox txt_name;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private TextBox txt_email;
+        private TextBox txt_phone;
+        private TextBox txt_password;
+        private Button button1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+    }
+}
